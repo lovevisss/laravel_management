@@ -22,3 +22,7 @@ Route::get('/all', function(){
 Route::get('/git', function(){
 	return 'git is up';
 });
+
+Route::get('/test', function() {
+    return 'need to install laravel excel';
+});
