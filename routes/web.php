@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/all', function(){
 	return 'this is all';
 });
+
+Route::get('/git', function(){
+	return 'git is up';
+});
